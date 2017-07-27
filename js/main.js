@@ -3,7 +3,7 @@ $(function() {
 	var array_of_data = [
 		{id: 0, medium: 'oil', artist: 'tommy winfrey', img: 'artwork/il_570xN.765785147_na1z.jpg', name: 'gizmo', price: '600.00', size: '24" x 36"', exactMedium: 'oil on canvas', prison: 'san quentin', profilepict: 'artwork/profile.png'},
 		{id: 1, medium: 'oil', artist: 'tommy winfrey', img: 'artwork/il_570xN.766056428_i7ei.jpg', name: 'branded', price: '600.00', size: '24" x 36"', exactMedium: 'oil on canvas', prison: 'san quentin', profilepict: 'artwork/profile.png'},
-		{id: 2, medium: 'oil', artist: 'tommy winfrey', img: 'artwork/il_570xN.868787360_l8hl.jpg', name: 'emperor penguin', price: '600.00', size: '24" x 36"', exactMedium: 'oil on canvas', prison: 'san quentin', profilepict: 'artwork/profile.jpg'},
+		{id: 2, medium: 'oil', artist: 'tommy winfrey', img: 'il_570xN.868787360_l8hl.jpg', name: 'emperor penguin', price: '600.00', size: '24" x 36"', exactMedium: 'oil on canvas', prison: 'san quentin', profilepict: 'artwork/profile.jpg'},
 		{id: 3, medium: 'acrylic', artist: 'tommy winfrey', img: 'artwork/ship.jpg', name: 'trouble', price: '450.00', size: '30" x 24"', exactMedium: 'acrylic on canvas', prison: 'san quentin', profilepict: 'artwork/profile.png'},
 		{id: 4, medium: 'acrylic', artist: 'tommy winfrey', img: 'artwork/self_portrait.jpg', name: 'the matidor', price: '700.00', size: '36" x 36"', exactMedium: 'acrylic on canva', prison: 'san quentin', profilepict: 'artwork/profile.png'},
 		{id: 5, medium: 'acrylic', artist: 'tommy winfrey', img: 'artwork/midsummer.jpg', name: 'midsummer', price: '500.00', size: '30" x 24"', exactMedium: 'acrylic on canvas', prison: 'san quentin', profilepict: 'artwork/profile.png'},
@@ -11,7 +11,7 @@ $(function() {
 		{id: 7, medium: 'pencil/charcoal', artist: 'tommy winfrey', img: 'artwork/two_moons.jpg', name: 'chief two moons', price: '100.00', size: '9" x 11"', exactMedium: 'pencil/charcoal on paper', prison: 'san quentin', profilepict: 'artwork/profile.png'},
 		{id: 8, medium: 'acrylic', artist: 'tommy winfrey', img: 'artwork/indians.png', name: 'fredom', price: '450.00', size: '30" x 24"', exactMedium: 'acrylic on canvas', prison: 'san quentin', profilepict: 'artwork/profile.png'},
 		{id: 9, medium: 'handmade', artist: 'jack', img: 'artwork/purse.jpg', name: 'purse', price: '50.00', size: '30" x 24"', exactMedium: 'folded laminated paper', prison: 'folsom', profilepict: 'artwork/profile.png'},
-		{id: 10, medium: 'oil', artist: 'bio', img: 'artwork/ren_man.png', name: 'renisance', price: '500.00', size: '24" x 30"', exactMedium: 'oil on canvas', prison: 'san quentin', profilepict: 'artwork/profile.png'},
+		{id: 10, medium: 'oil', artist: 'bio', img: 'ren_man.png', name: 'renisance', price: '500.00', size: '24" x 30"', exactMedium: 'oil on canvas', prison: 'san quentin', profilepict: 'artwork/profile.png'},
 		{id: 11, medium: 'handmade', artist: 'jack', img: 'artwork/_86865074_img_3518.png', name: 'day of the dead purse', price: '150.00', size: '24" x 30"', exactMedium: 'leather', prison: 'folsom', profilepict: 'artwork/profile.png'},
 		{id: 12, medium: 'acrylic', artist: 'chad tobias', img: 'artwork/man_in_cell.png', name: 'man in a cell', price: '1500.00', size: '48" x 36"', exactMedium: 'acrylic on canvas', prison: 'san quentin', profilepict: 'artwork/profile.png'},
 		{id: 13, medium: 'pencil/charcoal', artist: 'alberto fernandez', img: 'artwork/indian_dancing.png', name: 'indian nation', price: '500.00', size: '24" x 30"', exactMedium: 'pen on paper', prison: 'folsom', profilepict: 'artwork/profile.png'},
