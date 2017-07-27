@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ARTFELT CREATION</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      	<!-- Bootstrap -->
+     	 <link href="css/bootstrap.min.css" rel="stylesheet">
+     	 <link rel="icon"  href="artwork/pallet@3x.png">
+		<link rel="stylesheet" type="text/css" href="css/art_felt.css">
+	</head>
+	<body>
+<!-- navbar -->
+		<nav class="navbar">
+			<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header navbar-fixed-top"> 
+			      <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#myNavBar" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="glyphicon glyphicon-menu-hamburger"></span>
+			       
+			      </button>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse myColapseNavBar non-currrent navbar-fixed-top" id="myNavBar">
+				    <ul class="nav navbar-nav">
+				        <li class="top "><a id="home"  href="#" class="current nav_home">HOME</a></li>
+				        <li><a href="#" id="about" class="" >ABOUT</a></li>
+   						<li><a href="#" id="contact" class="" >CONTACT</a></li>
+      			        <li class="dropdown">
+							<a id="galleries" class="dropdown-toggle" data-toggle="dropdown" href="#">
+								GALLERIES<span class="caret"></span>
+							</a>
+						   	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+							    <li role="presentation"
+							         class="oil dropDownLink" role="menuitem" tabindex="-1" href="#">OIL
+							    </li>
+							    <li role="presentation" class="acrylic dropDownLink" role="menuitem" tabindex="-1" href="#">ACRYLIC
+							    </li>
+							    <li role="presentation" class="pencil dropDownLink" role="menuitem" tabindex="-1" href="#">
+							           DRAWINGS
+							    </li>
+							    <li role="presentation" class="handmade dropDownLink" role="menuitem" tabindex="-1" href="#">
+							            HANDMADE CRAFTS
+							    </li>
+								<!-- <li role="presentation" class="divider dropDownLink"></li> -->
+								<!-- <li id="li_holder" role="presentation">
+								    <a id="artist_by_name" class="dropdown-toggle dropDownLink" data-toggle="dropdown" href="#">ARTIST BY NAME
+								    <ul id='' class="artistsList hidden_ul dropdown-menu artist_menu"role="menu" aria-labelledby="dropdownMenu1">
+								    	<li class="artist_name dropDownLink">BIO</li>
+								    	<li class="artist_name dropDownLink">TOMMY WINFREY</li>
+								    </ul></a>
+								</li> -->
+							</ul> 
+						</li>
+						<li class="dropdown artistsNames">
+							<a id="artists-profiles" class="dropdown-toggle" data-toggle="dropdown" href="#">
+								PROFILES<span class="caret"></span>
+							</a>
+						   	<ul  class="artistsList dropdown-menu artists_drop_menu" role="menu" aria-labelledby="dropdownMenu1">
+							</ul> 
+						</li>  
+						<div class="col-md-4 search-bar">
+						    <div class="input-group">
+							    <input type="text" class="form-control artist-search" placeholder="Search for artist...">
+							    <span class="search input-group-btn">
+							    <button class="search-btn  search btn btn-secondary" type="button"><span class="search glyphicon glyphicon-search"></span></button>
+							    </span>
+
+						    </div>
+						    <ul class="hidden artistsList hiddenDrop"></ul>
+					  	</div>
+						<li class="shopping"><button type="button" class="shopping-btn btn btn-primary btn-sm shoppingCart-btn" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span class="badge"></span></button></li>
+
+				    </ul>
+
+			      
+			      
+			    </div><!-- /.navbar-collapse -->
+				
+				<div class="row">
+					<div class="col-md-12 companyDiv" >
+						<h1 class="center-block company">ARTFELT <div class="noWrap">CREATI<img id="pallet"src="artwork/pallet.png">N</h1></div>
+						<h2 class="center-block tagline">PROVIDING OPPORTUNITY THROUGH CREATIVITY</h2>
+					</div>
+				</div>
+					
+				
+			<!-- /.container-fluid -->
+		</nav>
+<!-- main content -->
+	<div class="container-fluid">
+
+<!-- hidden gallery row -->
+		<div class="row hidden" id="galRow">
+			<div class="col-md-2 col-xs-1"></div>
+			<div class="col-md-8 col-xs-10 hidden-print text" id="gallery"></div>
+			<div id="divSide" class="col-md-2 col-xs-1"></div>
+		</div>
+<!-- slides -->
+		<div class="row slides">
+			<div class="col-xs-1 col-md-1"></div>
+			<div class="col-xs-12 col-md-10">
+				<div class="row ">
+					<div class="col-md-4 col-xs-10 slide center-block"><img src="artwork/magnify.png"><h3 class="slide_head">DISCOVER HIDDEN TALENT</h3><p class="slide_text">Thousands of artists are creating spectacular art behind prison walls, but the public rarely sees these creations.</p></div>
+					<div class="col-md-4 col-xs-10 slide magnify center-block"><img src="artwork/bulb.png"><h3 class="slide_head">HELP BUILD A BRIGHTER FUTURE</h3><p class="slide_text">Each time you purchase an item from Artfelt Creation, you are helping to fund an incarcerated artist's dream.</p></div>
+					<div class="col-md-4 col-xs-10 slide center-block"><img src="artwork/helpinghand.png"><h3 class="slide_head">HELP FUND ART PROGRAMS</h3><p class="slide_text">With every purchase made at Artfelt Creation we will donate a portion to fund art programs in schools.</p></div>
+				</div>
+			</div>	
+			<div class="col-xs-1 col-md-1"></div>
+		</div>
+<!--about page-->
+		<div class="row hidden" id="hiddenAboutDiv">
+			<div class="col-xs-1 col-md-3"></div>
+			<div class="col-xs-12 col-md-6">
+				<!-- <h3 class="center-block form_company">ARTFELT <div class="noWrap">CREATI<img id="form_pallet"src="artwork/pallet.png">N</h3>
+				<h6 class="center-block tagline_form">PROVIDING OPPORTUNITY THROUGH CREATIVITY</h6> -->
+				<p class="about-text"><img id="profile" class="img-circle" src="teen_art/profile.png">At Artfelt Creation we believe in giving back. Artfelt Creation is the vision of Tommy Winfrey, an incarcerated artist in the California prison system. After years of imprisonment and rehabilitation, Tommy found he had a problem when he wanted to continue his higher education. He did not have the finances it required to obtain his goal of a Bachelors Degree, so he searched for a way to secure the money he needed. He turned to the one way he believed he could finance his dream, his artwork. There are existing platforms that can facilitate the selling of artwork such as EBay and Etsy; however, these channels require the assistance of an independent agent acting on the incarcerated artist's behalf. Thus Artfelt Creation was born.</p>
+				<p class="about-text"><img id="kids" src="teen_art/children_in_classroom_II.png"> The incarcerated artist is not the only one who benefits from their unique talents. A portion of each sale will be donated to support art programs for children. Many incarcerated artists harmed their communities, and as an offender Tommy believes he and fellow offenders have an obligation to help repair some of the damage they inflicted. Tommy realizes the impact art has had on his life, and he believes there is a need for youth to discover and value their creative talents when they are young. He believes that by teaching youth to be creative through art programs, lessons can transcend into creative problem solving skills that will serve the youth in their future. In this way the incarcerate artist can be part of the solution instead of part of the problem.</p>
+				<p class="about-text">Many e-commerce sites are about making a profit, but at Artfelt Creation it is about making a difference in the world. This takes the help of everyone involved from the artist to the customer. Everyone plays an important part in the success of the community. By helping each other, we are in fact, helping ourselves. So join the community at Artfelt Creation, and help provide opportunity through creativity.</p>
+			</div>
+			<div class="col-xs-4 col-md-3"></div>
+		</div>
+<!-- contact form -->
+		<div class="row  hidden" id="hiddenContactDiv">
+			<div class="col-xs-1 col-md-3"></div>
+			<div class="col-xs-12 col-md-6">
+				<div class="row ">
+					<form class="contact_form">
+						<div>
+							<h3 class="center-block form_company">ARTFELT <div class="noWrap">CREATI<img id="form_pallet"src="artwork/pallet.png">N</h3>
+							<h6 class="center-block tagline_form">PROVIDING OPPORTUNITY THROUGH CREATIVITY</h6>
+							<p class="form_text">At artfelt we care about what you have to say.</p>
+							<p class="form_text">Please give us feedback on the site and tell us what you would like to see or how we can make your experience better.</p> 
+
+						</div>
+					  	<div class="form-group">
+					    	<label for="exampleInputEmail1" class="form_text">How can we contact you?</label>
+					    	<input type="email" class="form-control form_input" id="exampleInputEmail1" placeholder="Email">
+					  	</div>
+						<div class="form-group">
+						    <textarea class="form-control form_input" rows="3" placeholder="Message..."></textarea>
+						</div>
+						<div class="checkbox">
+						    <p class="help-block form_text">Receive updates and a monthly newsleter from ARTFELT CREATION</p>
+						    <label>
+							    <input type="checkbox"><span class="form_text">Sign me up!</span> 
+						    </label>
+						</div>
+					  	<button type="submit" class="btn btn-success">Submit</button>
+						<p class="form_email">or email us at: www.artfelt@artfelt.com</p>
+						<hr class="hr"/>
+						<div class="form_address_div">
+						<p class="form_address_title">For The Incarcerated</p>
+						<p class="form_address">Write to:</p>
+						<p class="form_address">ARTFELT CREATION</p>
+						<p class="form_address">123 Main Street</p>
+						<p class="form_address">Somewhere, CA 90000</p>
+						</div>
+					</form>
+				</div>
+			</div>	
+			<div class="col-xs-1 col-md-1"></div>
+		</div>
+<!-- thumbnail header -->
+		<div class="row ">
+			<div class="col-md-3 col-xs-1"></div>
+			<div class="col-md-6 col-xs-10 artists"><h2 id="thumbnailHeader">Search art by category</h2></div>
+			<div class="col-md-3 col-xs-1"></div>
+		</div>	
+<!-- thumbnail galeries -->
+		<div class="row">
+			<div class="col-xs-1 col-md-1"></div>
+			<div class="col-xs-12 col-md-10">
+				<div class="row">
+					<!-- <div class="col-md-2"></div> -->
+					<div class="col-xs-6 col-md-3 oil">
+					    <a href="#"  class="thumbnail">
+					      <img src="Tommy Photos/il_570xN.868787360_l8hl.jpg
+						" alt="oil gallery"><h3 class="artists-sm">Oil</h3>
+						</a>
+					</div>
+
+					<div class="col-xs-6 col-md-3 acrylic">
+					    <a href="#"  class="thumbnail">
+					      <img src="artwork/ship.png
+						" alt="acrylic gallery">
+					    <h3 class="artists-sm">Acrylic</h3>
+						</a>
+					</div>
+					
+					<div class="col-xs-6 col-md-3 pencil">
+					    <a href="#"  class="thumbnail">
+					      <img src="artwork/indian_dancing.png
+						" alt="oil gallery">
+					    <h3 class="artists-sm">Drawings</h3></a>	
+					</div>
+
+					<div class="col-xs-6 col-md-3 handmade">
+					    <a href="#"  class="thumbnail">
+					      <img src="Tommy Photos/_86865074_img_3518.png
+						" alt="oil gallery">
+					    <h3 class="artists-sm">Handmade</h3></a>
+					</div>
+				</div>
+		  	</div>
+		  	<div class="col-xs-1 col-md-1"></div>
+		</div>
+<!-- shopping cart -->		
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  	<div class="modal-dialog" role="document">
+		    	<div class="modal-content">
+		      		<div class="modal-header">
+		        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          			<span aria-hidden="true">&times;</span>
+		       			 </button>
+		        		<h4 class="modal-title" id="myModalLabel">SHOPPING CART</h4>
+		      		</div>
+			      	<div class="modal-body">
+			      		<table class="table table-hover table-condensed cartTable">
+			      			<tr class="cartRow">
+			      				<th></th>
+			      				<th>Item Name & Size</th>
+			      				<th>Artist Name</th>
+			      				<th>Price</th>
+			      			</tr>
+			      		</table>
+			        </div>
+				    <div class="modal-footer">
+				        <button type="button" class="btn btn-danger empty-btn" data-dismiss="modal">Empty Cart</button>
+				        <button type="button" class="btn btn-primary">Purchase</button>
+				    </div>
+		    	</div>
+		  	</div>
+		</div>
+	</div>			
+<!-- footer -->
+		<footer>
+			<ul>
+				<li class="devider"><a href="artfelt/contact">Contact Us</a></li>
+				<li class="devider"><a href="artfelt/about">About Us</a></li>
+				<li class="devider"><a href="artfelt/policies">Policies</a></li>
+				<li class="devider"><a href="artfelt/links">Links</a></li>
+				<li><a href="http://localhost:8080/tommy_winfrey_art">Copyright &copy; 2016 TommyWinfreyArt</a></li>
+				<img src="artwork/twitter.png">
+				<img id="facebook" src="artwork/icon_facebook.gif">
+			</ul>
+
+		</footer>
+
+
+		<script src="js/jquery-2.2.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	  	<script src="js/main.js"></script>
+	</body>
+</html>
